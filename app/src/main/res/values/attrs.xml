@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Customerview">
+    <attr name="c_h" format="dimension"></attr>
+    <attr name="c_w" format="dimension"></attr>
+    <attr name="c_color" format="color"></attr>
+</declare-styleable>
+
+    <declare-styleable name="CompositeViews">
+        <attr name="centerText" format="string"></attr>
+        <attr name="centerTextSize" format="dimension"></attr>
+        <attr name="centerTextColor" format="color"></attr>
+        <attr name="centerTextBackground" format="color|reference"></attr>
+
+        <attr name="leftText" format="string"></attr>
+        <attr name="leftTextSize" format="dimension"></attr>
+        <attr name="leftTextColor" format="color"></attr>
+        <attr name="leftTextBackground" format="color|reference"></attr>
+
+        <attr name="rightText" format="string"></attr>
+        <attr name="rightTextSize" format="dimension"></attr>
+        <attr name="rightTextColor" format="color"></attr>
+        <attr name="rightTextBackground" format="color|reference"></attr>
+
+    </declare-styleable>
+
+</resources>

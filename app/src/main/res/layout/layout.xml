@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test.com.test.CustomerViewGroup xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+                                 android:background="#999999"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+
+    <test.com.test.CompositeViews
+        android:id="@+id/CompositeViews"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/activity_horizontal_margin"
+        app:centerTextBackground="@android:color/holo_blue_bright"
+        app:leftTextBackground="@android:color/holo_purple"
+        app:rightTextBackground="@android:color/holo_purple"/>
+
+    <test.com.test.CustomerRunLine
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        app:c_color="#ef5621"
+        android:paddingBottom="50dp"
+        app:c_h="80dp"
+        app:c_w="4dp"
+        />
+
+    <test.com.test.AudioView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</test.com.test.CustomerViewGroup>
