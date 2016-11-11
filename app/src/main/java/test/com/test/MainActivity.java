@@ -6,14 +6,14 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements CompositeViews.tabBarListener {
 
-    private CompositeViews mCompositeViews;
+//    private CompositeViews mCompositeViews;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.layout);
-        mCompositeViews = (CompositeViews) findViewById(R.id.CompositeViews);
-        mCompositeViews.settabBarOnclcikLisenter(this);
+        setContentView(R.layout.layoutcir);
+//        mCompositeViews = (CompositeViews) findViewById(R.id.CompositeViews);
+//        mCompositeViews.settabBarOnclcikLisenter(this);
 
     }
 
